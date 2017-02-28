@@ -74,8 +74,9 @@ nav {
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		width: 600px;
+		width: 680px;
 		float: right;
+		margin-right:-50px;
 	}
 	nav ul li {
 		display: inline-block;
