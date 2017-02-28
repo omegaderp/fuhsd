@@ -74,9 +74,9 @@ nav {
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		width: 680px;
+		width: 676px;
 		float: right;
-		margin-right:-50px;
+		margin-right:-90px;
 	}
 	nav ul li {
 		display: inline-block;
@@ -94,7 +94,7 @@ nav {
 		border-top: 5px solid #f87365;
 	}
 #overview {
-	background-image: url('images/leaves.jpg');
+	background-image: url('//vinvit.co.nf/images/leaves.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 750px;
