@@ -81,7 +81,6 @@ nav {
 	nav ul li {
 		display: inline-block;
 		margin: 0;
-		width: 100px;
 		padding: 23px 0;
 		cursor: pointer;
 		position: relative;
@@ -89,12 +88,14 @@ nav {
 		top: -5px;
 		text-align: center;
 		font-size: 18px;
+		padding-left:8px;
+		padding-right:8px;
 	}
 	li.selected, li:hover  {
 		border-top: 5px solid #f87365;
 	}
 #overview {
-	background-image: url('//vinvit.co.nf/images/leaves.jpg');
+	background-image: url('http://vinvit.co.nf/images/leaves.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 750px;
@@ -209,7 +210,7 @@ nav {
 			margin: 8px 0 0 0;
 		}
 #partners {
-	background-image: url('images/office.jpg');
+	background-image: url('http://vinvit.co.nf/images/office.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
