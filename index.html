@@ -5,8 +5,8 @@
 
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="//vinvit.co.nf//favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="http://vinvit.co.nf/favicon.ico" type="image/x-icon">
+ 
   
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
   <meta property="og:image" content="http://vinvit.co.nf/images/logo.png" />
@@ -173,6 +173,52 @@
   </footer>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type='text/javascript' src='http://vinvit.co.nf/scripts.js'></script>
+  <script type='text/javascript'>
+	$(window).load(function() {
+    $('#overlay').fadeOut();
+});
+
+$('#1, #logo').click(function(){
+	$('html, body').animate({ scrollTop: 0 }, 'slow');
+});
+$('#2').click(function(){
+	$('html, body').animate({ scrollTop: 730 }, 'slow');
+});
+$('#3').click(function(){
+	$('html, body').animate({ scrollTop: 1530 }, 'slow');
+});
+$('#4').click(function(){
+	$('html, body').animate({ scrollTop: 2700 }, 'slow');
+});
+$('#5').click(function(){
+	$('html, body').animate({ scrollTop: 3380 }, 'slow');
+});
+$('#6').click(function(){
+	$('html, body').animate({ scrollTop: 4200 }, 'slow');
+});
+
+
+$(window).scroll(function() {
+	$('li').removeClass('selected');
+
+	if ($(document).scrollTop() < 675) {
+		$('#1').addClass('selected');
+	}
+	else if ($(document).scrollTop() < 1475) {
+		$('#2').addClass('selected');
+	}
+	else if ($(document).scrollTop() < 2700) {
+		$('#3').addClass('selected');
+	}
+	else if ($(document).scrollTop() < 3350) {
+		$('#4').addClass('selected');
+	}
+	else if ($(document).scrollTop() < 4000) {
+		$('#5').addClass('selected');
+	}
+	else {
+		$('#6').addClass('selected');
+	}
+});</script>
 </body>
 </html>
