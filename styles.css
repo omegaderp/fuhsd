@@ -211,17 +211,16 @@ nav {
 			margin: 8px 0 0 0;
 		}
 #partners {
-	background-image: url('http://vinvit.co.nf/images/office.jpg');
-	background-repeat: no-repeat;
+	background-color:white;
 	background-size: cover;
 }
 	#partners h2 {
-		color: white;
+		color: #A31D21;
 	}
 	#partners p {
 		font-size: 18px;
 		line-height: 30px;
-		color: white;
+		color: #A31D21;
 		margin-bottom: 25px;
 	}
 	.company {
@@ -230,7 +229,7 @@ nav {
 	}
 		.company h3 {
 			text-align: center;
-			color: white;
+			color: #A31D21;
 			font-size: 18px;
 			padding-top: 15px;
 		}
