@@ -60,8 +60,10 @@ nav {
 		cursor: pointer;
 	}
 		#logo img {
-			width: 40px;
+			width: 50px;
 			float: left;
+			margin-top:-5px;
+			margin-left:10px;
 		}
 		#logo h3 {
 			font-size: 18px !important;
@@ -74,7 +76,7 @@ nav {
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		width: 676px;
+		width: 706px;
 		float: right;
 		margin-right:-90px;
 	}
@@ -87,7 +89,7 @@ nav {
 		border-top: 5px solid #A31D21;
 		top: -5px;
 		text-align: center;
-		font-size: 18px;
+		font-size: 16px;
 		width:100px;
 	}
 	li.selected, li:hover  {
