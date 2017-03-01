@@ -111,7 +111,7 @@ nav {
 	}
 	#overview img {
 		float: right;
-		padding: 120px 0 0 0;
+		padding: 320px 120 0 0;
 	}
 #concept {}
 	#concept h2 {
@@ -191,7 +191,7 @@ nav {
 		line-height: 30px;
 	}
 	.bio {
-		margin: 50px 25px 0 0 ;
+		margin: 50px 50px 0 0 ;
 		display: inline-block;
 		width: 228px;
 	}
