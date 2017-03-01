@@ -82,14 +82,15 @@ nav {
 	nav ul li {
 		display: inline-block;
 		margin: 0;
-		padding: 23px 0;
+		padding: 25px 0;
 		cursor: pointer;
 		position: relative;
 		border-top: 5px solid #A31D21;
 		top: -5px;
 		text-align: center;
 		font-size: 16px;
-		width:100px;
+		padding-left:12px;
+		padding-right:12px;
 	}
 	li.selected, li:hover  {
 		border-top: 5px solid #f87365;
