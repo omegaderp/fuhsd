@@ -389,3 +389,13 @@ label {
 input[type="radio"] {
 	margin-top: 5px;
 }
+button {
+	color:white;
+	padding:12px;
+	background-color: rgb(163,29,33);
+	border:none;
+	font-family:Lato;
+	font-size:14px;
+	width:100%;
+}
+	
